@@ -10,9 +10,9 @@ body {
 .container-fluid {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color:#007aff;
-    padding-block: 20px;
+    padding-block:  20px;
 }
 form.d-flex {
     display: flex;
@@ -135,6 +135,7 @@ button.btn.btn-outline-light.me-2 {
 }
 .category-heading{
     font-size: 14.4px;
+    position: relative;
     font-family: poppins,sans-serif;
     color: #27323f;
     /* padding: 7.2px 0px 10.8px; */
@@ -233,6 +234,18 @@ span.fa.fa-star {
     margin-top: 9px;
 }
 
+.short{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    background-image: url(./electronic-store-product-image-28-300x300-2.jpeg);
+    background-size: cover;
+}
+.main-div-0:hover .short{
+    background-image: url(./electronic-store-product-gallery-image-6-600x600-1.jpeg);
+    transition: 1s;
+
+}
 .short-div{
     width: 250px;
     height: 250px;
@@ -325,3 +338,38 @@ span.fa.fa-star {
     height: 300px;
 }
 
+/*      code changes        */
+
+.cart-section{
+    position: absolute;
+    width: 30%;
+    right: -30%;
+    height: 90%;
+    background-color: #eea236;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    overflow-y: scroll;
+    color: #fff;
+}
+.cart-section::-webkit-scrollbar{
+    display: none;
+}
+.cart-section .btn{
+    color: #000;
+}
+.cart-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: .5vw;
+}
+.cart-items .prod-name{
+    width: 10vw;
+    display: inline-block;
+}
+.cart-items img{
+    width: 5vw;
+    height: 10vh;
+    border-radius: 10%;
+}
