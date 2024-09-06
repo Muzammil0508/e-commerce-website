@@ -52,6 +52,7 @@
                 <div class="text-end">
                     <button type="button" class="btn btn-outline-light me-2">Login</button>
                     <button type="button" class="btn btn-warning">Sign-up</button>
+                    <button type="button" class="btn btn-warning cartbtn">Cart</button>
                 </div>
             </div>
     </header>
@@ -64,7 +65,9 @@
                 <button class="shop-btn">Shop now</button>
             </div>
         </div>
-
+        <div class="cart-section">
+            <!-- elements to be added through js -->
+        </div>
     </section>
     <div class="inner-section">
         <div class="free-shipping">
@@ -143,8 +146,7 @@
                <button class="see-more">See More</button>
             </div>
         <div class="grid-container-1">
-            <div><img class="best-deal-img" src="./electronic-store-product-image-27-300x300-1.jpeg" alt="">
-              
+            <div class="main-div-0"><div class="short"></div>
                 <div class="rating-star">
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
@@ -154,7 +156,7 @@
                 </div>
                 <h1 class="best-deal-heading">Multigroomer All-in-One Trimmer Series 5000, 23 Piece Mens Grooming Kit
                 </h1>
-                <P class="best-deal-para"><del class="del-txt">$1,299.00</del> $1,199.00</P>
+                <P class="best-deal-para"><del class="del-txt">$1,299.00</del>$1,199.00 <button class="btn-warning btn">add to cart</button></P>
             </div>
             <div  class="main-div"><div class="short-div"></div>
                 <div class="rating-star">
@@ -166,7 +168,7 @@
                 </div>
                 <h1 class="best-deal-heading">Smart Speaker with Alexa Voice Control Built-in Compact Size with
                     Incredible Sound for Any Room</h1>
-                <P class="best-deal-para"><del class="del-txt">$249.00</del> $219.00</P>
+                <P class="best-deal-para"><del class="del-txt">$249.00</del> $219.00 <button class="btn-warning btn">add to cart</button></P>
             </div>
             <div  class="main-div-1"><div class="short-div-1"></div>
                 <div class="rating-star">
@@ -178,7 +180,7 @@
                 </div>
                 <h1 class="best-deal-heading">Home Speaker 500: Smart Bluetooth Speaker with Alexa Voice Control
                     Built-In, White</h1>
-                <P class="best-deal-para"><del class="del-txt">$229.00</del> $209.00</P>
+                <P class="best-deal-para"><del class="del-txt">$229.00</del> $209.00 <button class="btn-warning btn">add to cart</button></P>
             </div>
             <div  class="main-div-2"><div class="short-div-2"></div>
                 <div class="rating-star">
@@ -190,7 +192,7 @@
                 </div>
                 <h1 class="best-deal-heading">Note 10 Pro 128GB 6GB RAM Factory Unlocked (GSM ONLY) International Model
                 </h1>
-                <P class="best-deal-para"><del class="del-txt">$699.00</del> $659.00</P>
+                <P class="best-deal-para"><del class="del-txt">$699.00</del> $659.00 <button class="btn-warning btn">add to cart</button></P>
             </div>
             <div  class="main-div-3"><div class="short-div-3"></div>
                 <div class="rating-star">
@@ -202,7 +204,7 @@
                 </div>
                 <h1 class="best-deal-heading">5G Unlocked Smartphone,12GB RAM+256GB Storage120Hz Fluid Display
                     Hasselblad Quad Camera 65W Ultra Fast Charge 50W Wireless Charge</h1>
-                <P class="best-deal-para"><del class="del-txt">$1,299.00</del> $1,199.00</P>
+                <P class="best-deal-para"><del class="del-txt">$1,299.00</del> $1,199.00 <button class="btn-warning btn">add to cart</button></P>
             </div>
             <div  class="main-div-4"><div class="short-div-4"></div>
                 <div class="rating-star">
@@ -214,7 +216,7 @@
                 </div>
                 <h1 class="best-deal-heading">5G Factory Unlocked Android Cell Phone 128GB Pro-Grade Camera 30X Space
                     Zoom Night Mode, Space Grey</h1>
-                <P class="best-deal-para"><del class="del-txt">$1,099.00</del> $999.00</P>
+                <P class="best-deal-para"><del class="del-txt">$1,099.00</del> $999.00 <button class="btn-warning btn">add to cart</button></P>
             </div>
             <div  class="main-div-5"><div class="short-div-5"></div>
                 <div class="rating-star">
@@ -227,7 +229,7 @@
                 <h1 class="best-deal-heading">13 Ultrabook Gaming Laptop: Intel Core i7-1165G7 4 Core, NVIDIA GeForce
                     GTX 1650 Ti Max-Q, 13.3″ 1080p 120Hz, 16GB RAM, 512GB SSD, CNC Aluminum, Chroma RGB, Thunderbolt 4
                 </h1>
-                <P class="best-deal-para"><del class="del-txt">$1,499.00</del> $1,399.00</P>
+                <P class="best-deal-para"><del class="del-txt">$1,499.00</del> $1,399.00 <button class="btn-warning btn">add to cart</button></P>
             </div>
             <div  class="main-div-6"><div class="short-div-6"></div>
                 <div class="rating-star">
@@ -239,7 +241,7 @@
                 </div>
                 <h1 class="best-deal-heading">15.6″ FHD Display Laptop – Intel i7 – Intel HD Graphics 6000 , Webcam,
                     WiFi, Bluetooth, HDMI, Windows 11,Grey</h1>
-                <P class="best-deal-para"><del class="del-txt">$1,029.00</del> $999.00</P>
+                <P class="best-deal-para"><del class="del-txt">$1,029.00</del> $999.00 <button class="btn-warning btn">add to cart</button></P>
             </div>
         </div>
         </div>
@@ -267,6 +269,8 @@
             </div>
         </div>
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
