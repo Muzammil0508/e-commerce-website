@@ -1,23 +1,23 @@
 
-// let section2 = document.querySelector('.section-2')
-// gsap.from('li a',{
-//     y:20,
-//     opacity:0,
-//     delay:.7,
-//     stagger:.15
-// })
+let section2 = document.querySelector('.section-2')
+gsap.from('li a',{
+    y:20,
+    opacity:0,
+    delay:.7,
+    stagger:.15
+})
 // gsap.from('body',{
 //     opacity:0,
 //     y:100,
 //     duration:1,
 //     delay:.3,
 // })
-// gsap.from('.box-content',{
-//     opacity:0,
-//     y:30,
-//     duration:1,
-//     delay:.7
-// })
+gsap.from('.box-content',{
+    opacity:0,
+    y:30,
+    duration:1,
+    delay:.7
+})
 
 // cart section
 let btn = document.querySelectorAll(".best-deal-para .btn")
