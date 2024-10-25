@@ -1,0 +1,599 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter',sans-serif;
+    overflow-x: hidden;
+    background-color: #f0f9fc;
+}
+.container-fluid {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:#007aff;
+    padding-block: 20px;
+}
+form.d-flex {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+ul.nav.col-12.col-lg-auto.me-lg-auto.mb-2.justify-content-center.mb-md-0 {
+    display: flex;
+}
+a.nav-link.px-2.text-white,a.nav-link.px-2.text-secondary {
+    color: white;
+} 
+a.nav-link.px-2.text-secondary:hover{
+    color:#007aff;
+}
+a.nav-link.px-2.text-white:hover {
+    color:#007aff;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 20px;
+    background-color: #007aff;
+    padding-block: 10px;
+}
+nav.navbar.navbar-light.bg-light {
+    margin: 0;
+    border: 1px solid blue;
+}
+.navigation-1 {
+    font-size: 18px;
+}
+button.btn.btn-outline-light.me-2 {
+    margin-right: 10px;
+}
+.section-1{
+    background-image: url(https://websitedemos.net/electronic-store-04/wp-content/uploads/sites/1055/2022/03/electronic-store-hero-image.jpg);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.box-content{
+    background-color:white;
+    width: 25%;
+    height: 60%;
+    padding: 20px;   
+    margin-left: 50px; 
+}
+.image-heading{
+    font-size: 30px;
+    font-family: poppins,sans-serif;
+    margin: 0px 0px 21px;
+    color: #27323f;
+    line-height: 1.3em;
+    color: #48515b;
+}
+.image-para{
+    font-size: 14px;
+    font-family: inter,sans-serif;
+    color: #48515b;
+    line-height: 2em;
+    color: #27323f;
+}
+.shop-btn{
+    font-size: 16px;
+    font-family: poppins,sans-serif;
+    color: #007aff;
+    background-color: white;
+    font-weight: 700;
+    border: none;
+}
+.online-logo{
+    width: 150px;
+    height: 100px;
+}
+.inner-section{
+    display: flex;
+    justify-content: center;
+    background-color:wheat;
+    gap: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid lightgray;
+}
+
+.inner-heading{
+    font-size: 18px;
+    font-family: inter,sans-serif;
+    color: #000000;
+}
+.inner-para{
+    font-size: 14px;
+    font-family: inter,sans-serif;
+    color: #000000;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 25px;
+    /* background-color:; */
+    padding: 10px;
+    border: 1px solid lightgray;
+    margin: 20px;
+    margin-top: 80px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+  }
+.category-img{
+    width: 250px;
+    margin-bottom: -50px;
+}
+.category-heading{
+    font-size: 14.4px;
+    font-family: poppins,sans-serif;
+    color: #27323f;
+    /* padding: 7.2px 0px 10.8px; */
+    font-weight: 700;
+}
+.category-para{
+    font-size: 10.8px;
+    font-family: poppins,sans-serif;
+    color: #000000;
+}
+
+.img-main-container {
+    display: flex;
+    margin-top: 50px;
+    gap: 10px;
+    justify-content:space-around;
+}
+
+.checked{
+    color: orange;
+    
+}
+.best-deal-heading{
+    font-size: 16px;
+    font-family: poppins,sans-serif;
+    margin: 0px 0px 8px;
+    color: #27323f;
+    text-align: start;
+    line-height: 1.8em;
+}
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    overflow: hidden;
+    /* padding: 30px; */
+    /* border: 1px solid lightgray; */
+    /* margin: 30px; */
+    /* margin-top: 80px; */
+  }
+  .today-head {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+  .grid-main{
+    /* gap: 25px; */
+    padding:0 20px;
+    padding-bottom: 60px;
+    border: 1px solid lightgray;
+    margin:  30px;
+    
+  }
+  .grid-container-1 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+  }
+  .best-deal-img{
+    width: 250px;
+}
+.best-deal-para{
+    font-size: 14.4px;
+    font-family: inter,sans-serif;
+    margin: 0px 0px 7.2px;
+    text-align: start;
+    color: #48515b;
+}
+.del-txt{
+    color: gray;
+    font-weight: 600;
+}
+.rating-star{
+    text-align: start;
+    margin-top: 10px;
+}
+span.fa.fa-star {
+    font-size: 18px;
+}
+.todays-deal{
+    font-size: 22px;
+    font-family: poppins,sans-serif;
+    color: #27323f;
+    font-weight: 600;
+   
+}
+.see-more{
+    font-size: 16px;
+    font-family: poppins,sans-serif;
+    color: #0573f0;
+    border: none;
+    background-color: white;
+    font-weight: 600;
+    margin-top: 9px;
+}
+
+.short-div{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    background-image: url(./electronic-store-product-image-28-300x300-2.jpeg);
+    background-size: cover;
+}
+.main-div:hover .short-div{
+    background-color: white;
+    background-image: url(./electronic-store-product-gallery-image-6-600x600-1.jpeg);
+    transition-duration: 1s;
+}
+.short-div-1{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    background-image: url(./electronic-store-product-image-2-300x300-3.jpeg);
+    background-size: cover;
+}
+.main-div-1:hover .short-div-1{
+    background-color: white;
+    background-image: url(./electronic-store-product-gallery-image-6-600x600-1.jpeg);
+    transition-duration: 1s;
+}
+.short-div-2{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    background-image: url(./electronic-store-product-image-21-300x300-4.jpeg);
+    background-size: cover;
+}
+.main-div-2:hover .short-div-2,.main-div-3:hover .short-div-3,.main-div-4:hover .short-div-4{
+    background-color: white;
+    background-image: url(./electronic-store-product-gallery-image-19-600x600-2.jpeg);
+    transition-duration: 1s;
+}
+.short-div-3{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    background-image: url(./electronic-store-product-image-21-300x300-4.jpeg);
+    background-size: cover;
+}
+.short-div-4{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    background-image: url(./electronic-store-product-image-21-300x300-4.jpeg);
+    background-size: cover;
+}
+.short-div-5{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    background-image: url(./electronic-store-product-image-18-300x300-7.jpeg);
+    background-size: cover;
+}
+.main-div-5:hover .short-div-5,.main-div-6:hover .short-div-6{
+    background-color: white;
+    background-image: url(./electronic-store-product-gallery-image-18-600x600-3.jpeg);
+    transition-duration: 1s;
+}
+.short-div-6{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    background-image: url(./electronic-store-product-image-19-300x300-8.jpeg);
+    background-size: cover;
+}
+.short-div-7{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    background-image: url(./electronic-store-product-image-40-300x300.jpeg);
+    background-size: cover;
+}
+.main-div-7:hover .short-div-7{
+    background-color: white;
+    background-image: url(./electronic-store-product-gallery-image-20-600x600.jpeg);
+    transition-duration: 1s;
+}
+.short-div-8{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    background-image: url(./electronic-store-product-image-41-600x600.jpeg);
+    background-size: cover;
+}
+.main-div-8:hover .short-div-8{
+    background-color: white;
+    background-image: url(./electronic-store-product-gallery-image-20-600x600.jpeg);
+    transition-duration: 1s;
+}
+.short-div-9{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    background-image: url(./electronic-store-product-image-39-300x300.jpeg);
+    background-size: cover;
+}
+.main-div-9:hover .short-div-9{
+    background-color: white;
+    background-image: url(./electronic-store-product-gallery-image-20-600x600.jpeg);
+    transition-duration: 1s;
+}
+.short-div-10{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    background-image: url(./electronic-store-product-image-38-300x300.jpeg);
+    background-size: cover;
+}
+.main-div-10:hover .short-div-10{
+    background-color: white;
+    background-image: url(./electronic-store-product-gallery-image-20-600x600.jpeg);
+    transition-duration: 1s;
+}
+.short-div-11{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    background-image: url(./electronic-store-product-image-4-300x300.jpeg);
+    background-size: cover;
+}
+.main-div-11:hover .short-div-11{
+    background-color: white;
+    background-image: url(./electronic-store-product-gallery-image-13-300x300.jpeg);
+    transition-duration: 1s;
+}
+.short-div-12{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    background-image: url(./electronic-store-product-image-3-600x600.jpeg);
+    background-size: cover;
+}
+.main-div-12:hover .short-div-12{
+    background-color: white;
+    background-image: url(./electronic-store-product-gallery-image-13-300x300.jpeg);
+    transition-duration: 1s;
+}
+.short-div-13{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    background-image: url(./electronic-store-product-image-8-300x300.jpeg);
+    background-size: cover;
+}
+.main-div-13:hover .short-div-13{
+    background-color: white;
+    background-image: url(./electronic-store-product-gallery-image-30-600x600.jpeg);
+    transition-duration: 1s;
+}
+.short-div-14{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    background-image: url(./electronic-store-product-image-6-600x600.jpeg);
+    background-size: cover;
+}
+.main-div-14:hover .short-div-14{
+    background-color: white;
+    background-image: url(./electronic-store-product-gallery-image-30-600x600.jpeg);
+    transition-duration: 1s;
+}
+.short-div-15{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    background-image: url(./electronic-store-product-image-9-300x300.jpeg);
+    background-size: cover;
+}
+.main-div-15:hover .short-div-15{
+    background-color: white;
+    background-image: url(./electronic-store-product-gallery-image-1-300x300.jpeg);
+    transition-duration: 1s;
+}
+.short-div-16{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    background-image: url(./electronic-store-product-image-10-300x300.jpeg);
+    background-size: cover;
+}
+.main-div-16:hover .short-div-16{
+    background-color: white;
+    background-image: url(./electronic-store-product-gallery-image-1-300x300.jpeg);
+    transition-duration: 1s;
+}
+.short-div-17{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    background-image: url(./electronic-store-product-image-11-300x300.jpeg);
+    background-size: cover;
+}
+.main-div-17:hover .short-div-17{
+    background-color: white;
+    background-image: url(./electronic-store-product-gallery-image-1-300x300.jpeg);
+    transition-duration: 1s;
+}
+.short-div-18{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    background-image: url(./electronic-store-product-image-16-300x300.jpeg);
+    background-size: cover;
+}
+.main-div-18:hover .short-div-18{
+    background-color: white;
+    background-image: url(./electronic-store-product-gallery-image-1-300x300.jpeg);
+    transition-duration: 1s;
+}
+
+.box-model-main-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 25px;
+}
+.box-model-1{
+    background-color:#f1f2f6;
+    width: 500px;
+    height: 300px;
+    padding: 15px;
+    padding-left: 35px;
+    display: flex;
+    border-radius: 20px;
+    
+}
+.box-model-2{
+    background-color:#E8EBED;
+    width: 500px;
+    height: 300px;
+    padding: 15px;
+    padding-left: 35px;
+    display: flex;
+    border-radius: 20px;
+}
+.box-model-3{
+    background-color:#F8EDD1;
+    width: 500px;
+    height: 300px;
+    padding: 15px;
+    padding-left: 35px;
+    display: flex;
+    border-radius: 20px;
+}
+.shop-now{
+    font-size: 16px;
+    font-family: poppins,sans-serif;
+    color: #0573f0;
+    border: none;
+    background-color: #f1f2f6;
+    font-weight: 600;
+    margin-top: 9px;
+}
+.shop-now-1{
+    font-size: 16px;
+    font-family: poppins,sans-serif;
+    color: #0573f0;
+    border: none;
+    background-color: #E8EBED;
+    font-weight: 600;
+    margin-top: 9px;
+}
+.shop-now-2{
+    font-size: 16px;
+    font-family: poppins,sans-serif;
+    color: #0573f0;
+    border: none;
+    background-color: #F8EDD1;
+    font-weight: 600;
+    margin-top: 9px;
+}
+
+.box-model-1-img{
+    margin-top: 50px;
+}
+.box-model-1-heading,.box-model-2-heading,.box-model-3-heading{
+    font-size: 30px;
+}
+.box-model-2-img,.box-model-3-img{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.text {
+    position: absolute;
+    left: 60px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+p.sale-para {
+    font-size: 17px;
+    padding: 10px;
+    margin: 0;
+}
+.text-1 {
+    position: absolute;
+    margin-left: 10px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.banner-1,.banner{
+    width: 100%;
+    padding: 30px;
+}
+.support-team-content-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color:#f0f9fc ;
+}
+.support-team-img{
+    display: flex;
+    align-items: end; 
+}
+.washing-machine-main{
+    display: flex;
+    padding: 30px;
+    
+}
+.washing-machine-content{
+    padding: 20px;
+    padding-top: 50px;
+    background-color: white;
+    border-left: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.shop-btn-washing-machine{
+    font-size: 16px;
+    font-family: poppins,sans-serif;
+    color: #007aff;
+    background-color:white;
+    font-weight: 700;
+    border: none;
+}
+.contact-us-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: whitesmoke;
+}
+ul{
+    padding-top: 15px;
+}
+li {
+    list-style: none;
+    color: #0573f0;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: #0573f0;
+}
+.section-13{
+    border-top: 1px solid lightgray;
+}
+
